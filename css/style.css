@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #000 ;
+	color: #fff;
+	box-shadow: 0.4em 0.4em 10px rgba(122,122,122,0.5);
+	height:9em;
+	position: sticky;
+
+
+	
+}
+
+a{
+text-decoration: none;	
+
+}
+.menu{
+	position: sticky;
+  top: 0; 
+}
+
+.menu li{
+	list-style: none;
+	
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 20px;
+	margin-bottom: 10px;
+		
+}
+.menu li:hover{
+	border-bottom: 2px solid #cccccc;
+	
+}
+.menu a{
+color: #ffffff;
+}
+.logo{
+
+padding-bottom: 20px;
+padding-top: 20px;
+width: 100%;
+display: flex;
+justify-content: center;
+height: 70px;
+  
+
+
+}
+.text img{
+	width: 100%;
+  height: auto;
+}
+.graficlogo{
+	box-sizing: border-box;
+	max-width: 100%;
+	position:;
+}
+.menu ul{
+	text-align: center ;
+	margin-right: 25px;
+
+}
+.text{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 50px;
+	margin-top: 80px;
+	margin-left: 250px;
+	margin-right: 250px;
+
+}
+
+h2{
+	margin: 10px ;
+	text-align: center;
+
+}
+h1{
+	margin: 20px ;
+
+	text-align: center;
+
+}
+figure{
+	margin: 80px auto ;
+	text-align: center;
+	
+	max-width: 50%;
+
+	
+    
+    
+    
+
+}
+p{
+	margin: 10px 0px;
+}
+body{
+	background-color: #FEFEFE
+}
+
+@media screen and (max-width: 1024px){
+.burger{
+  position: fixed;
+  width: 90px;
+  height: 100px;
+  right: 7px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.line2{
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  background-color: #fff;
+ right: 10px;
+ top: 45px;
+ transition: 0.3s;
+
+}
+.line3{
+  
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  background-color: #fff;
+ right: 10px;
+ top: 65px;
+ transition: 0.3s;
+}
+
+.line1{
+  
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  background-color: #fff;
+ right: 10px;
+ top: 25px;
+ transition: 0.3s;
+}
+.menu{
+  position: fixed;
+  height: 100%;
+  width: 70%;
+  opacity: 0.95;
+  z-index: 100;
+  background-color: #000;
+  left: -1000px;
+   transition: 0.3s;
+   display:block;
+}
+.menu a{
+  color: white;
+  font-size: 25px;
+  display: block;
+}
+.menu ul{
+  padding-left: 20px;
+  padding-top: 10px;
+  display: justify;
+  
+  justify-content: center;
+position: relative;
+}
+.menu li{
+  margin-top: 40px;
+  margin-left:  30px;
+  display: block;
+}
+.logo{
+	
+  
+  background: #000;
+
+
+
+
+}
+header{
+	
+	height: auto;
+	margin: 0;
+	padding: 0;
+	
+	}
+.text{
+	
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 100px;
+}
+
+
+}
+@media screen and (min-width: 1230px) and (max-width: 1422px){
+.text{
+	
+	margin-bottom: 50px;
+	margin-top: 70px;
+	margin-left: 125px;
+	margin-right: 125px;
+}
+.menu li{
+	
+	margin-left: 15px;
+	font-size: 18px;
+	margin-bottom: 7px;
+}
+.menu ul{
+	margin-right: 15px;
+}
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1229px){
+.text{
+	
+	margin-bottom: 50px;
+	margin-top: 70px;
+	margin-left: 125px;
+	margin-right: 125px;
+}
+header{
+	height: 8.5em;
+}
+.menu li{
+	
+	margin-left: 15px;
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+.menu ul{
+	margin-right: 15px;
+}
+}
